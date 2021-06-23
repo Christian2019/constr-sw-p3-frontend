@@ -1,0 +1,31 @@
+.bg-dark {
+background-color: rgb(238, 241, 239) !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("../assets/icons/toggler-icon.png");
+
+}
+
+ .home {
+  background-image: url("../assets/icons/home-icon.png");
+
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+.profile{
+  background-image: url("../assets/icons/profile-icon.png");
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
