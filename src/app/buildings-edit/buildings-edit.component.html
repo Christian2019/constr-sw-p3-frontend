@@ -1,0 +1,27 @@
+<div class="container">
+  <form>
+    <h2>
+      Criar/Editar prédio
+    </h2>
+    <div class="mb-3">
+      <label class="form-label">Nome do prédio</label>
+      <input (change)="changeName($event)" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Capacidade máxima</label>
+      <input (change)="changeCapacity($event)" type="number" class="form-control">
+      <label class="form-label">Andar(es)</label>
+      <input (change)="changeFloors($event)" type="number" class="form-control">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Descrição</label>
+      <input (change)="changeDescription($event)" type="text" class="form-control">
+    </div>
+
+    <button (click)="clickButton()" type='button' class="btn-primary">
+      <img src="../../assets/icons/right-icon.png" width="20" height="20" />
+      <span class="">Salvar</span>
+    </button>
+  </form>
+
+</div>

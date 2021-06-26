@@ -1,0 +1,29 @@
+.btn-primary {
+  border-radius: 20px;
+  color: black;
+  background-color: RGB(241, 143, 1);
+  border: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-label {
+  padding-left: 10px;
+}
+
+.form-control {
+  margin-left: 10px;
+}
+
+.mb-3 {
+  margin-top: 5px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  position: relative;
+  top: 0px;
+  left: 500px;
+}

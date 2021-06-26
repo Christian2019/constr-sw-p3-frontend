@@ -8,3 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'constr-sw-p3-frontend';
 }
+export type building = {
+  id: number;
+  name: string;
+  capacity: number;
+  floors: number;
+  description: string;
+};

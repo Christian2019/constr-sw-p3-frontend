@@ -1,0 +1,91 @@
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  height: 45px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.container .mat-toolbar {
+  background-color: rgb(238, 241, 239) !important;
+  padding: 0px;
+}
+
+.example-icon1 .mat-icon {
+  background-image: url("../../assets/icons/toggler-icon.png");
+
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.example-icon2 .mat-icon {
+  background-image: url("../../assets/icons/home-icon.png");
+
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.example-icon1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.example-icon2 {
+  position: absolute;
+  top: 0px;
+  right: 50px;
+}
+.example-icon3 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.example-icon3 .mat-icon {
+  background-image: url("../../assets/icons/profile-icon.png");
+  float: right !important;
+
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("../../assets/icons/toggler-icon.png");
+}
+
+.home {
+  background-image: url("../../assets/icons/home-icon.png");
+
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.profile {
+  background-image: url("../../assets/icons/profile-icon.png");
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
